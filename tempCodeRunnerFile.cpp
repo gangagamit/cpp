@@ -1,2 +1,2 @@
 
-        for(j=1;j<=i;j++)
+    solid(int length,int breadth,int height)

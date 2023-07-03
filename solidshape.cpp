@@ -16,8 +16,9 @@ class solid
     solid(int length,int breadth,int height)
     {
      int cuboid=length*breadth*height;   
-    cout<<"volume of cuboid:"<<cuboid<<endl;
+    cout<<"volume of cuboid:"<<cuboid<<endl;                                                                                                                                                                                                                        
     }
+
 };
 int main()
 {
