@@ -18,7 +18,7 @@ class Derived1: public Base
     public:
     void setn()
     {
-      for(i=1;i<=10;i++)
+      for(i=1;i<=m;i++)
       {
         c=i*i;
         cout<<c<<endl;
@@ -28,13 +28,12 @@ class Derived1: public Base
 class Derived2 : public Base
 {
   protected:
-  int i,n,x;
+  int i,x;
   public:
   void setM()
   {
-    cout<<"enter n:";
-    cin>>n;
-    for(i=1;i<=10;i++)
+    
+    for(i=1;i<=m;i++)
     {
       x=i*i*i;
       cout<<x<<endl;
@@ -48,5 +47,6 @@ int main()
   d.setn();
 
    Derived2 b;
+   b.setm();
    b.setM();
 }
